@@ -6,14 +6,14 @@
 //  Copyright © 2016 SARATH CHERIYAN JOSEPH. All rights reserved.
 //
 
-#ifndef Server_hpp
-#define Server_hpp
+#ifndef server_hpp
+#define server_hpp
 
 #include <vector>
 
 
 #include <iostream>
-#include "Subject.hpp"
+#include "subject.hpp"
 
 using namespace std;
 

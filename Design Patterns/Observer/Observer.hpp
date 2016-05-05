@@ -6,8 +6,8 @@
 //  Copyright © 2016 SARATH CHERIYAN JOSEPH. All rights reserved.
 //
 
-#ifndef Observer_hpp
-#define Observer_hpp
+#ifndef observer_hpp
+#define observer_hpp
 #include <iostream>
 
 
@@ -23,4 +23,4 @@ public:
 };
 
 
-#endif /* Observer_hpp */
+#endif /* observer_hpp */

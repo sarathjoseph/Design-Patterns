@@ -6,10 +6,10 @@
 //  Copyright © 2016 SARATH CHERIYAN JOSEPH. All rights reserved.
 //
 
-#include "Server.hpp"
-#include "Observer.hpp"
+#include "server.hpp"
+#include "observer.hpp"
 #include <algorithm>
-#include "Client.hpp"
+#include "client.hpp"
 
 using namespace std;
 enum state { RUNNING, STOPPED, STARTING };

@@ -6,9 +6,9 @@
 //  Copyright © 2016 SARATH CHERIYAN JOSEPH. All rights reserved.
 //
 
-#ifndef Subject_hpp
-#define Subject_hpp
-#include "Observer.hpp"
+#ifndef subject_hpp
+#define subject_hpp
+#include "observer.hpp"
 #include <stdio.h>
 
 
@@ -26,4 +26,4 @@ public:
     virtual ~Subject(){};
 };
 
-#endif /* Subject_hpp */
+#endif /* subject_hpp */

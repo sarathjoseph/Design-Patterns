@@ -6,9 +6,9 @@
 //  Copyright © 2016 SARATH CHERIYAN JOSEPH. All rights reserved.
 //
 
-#ifndef Client_hpp
-#define Client_hpp
-#include "Observer.hpp"
+#ifndef client_hpp
+#define client_hpp
+#include "observer.hpp"
 #include "vector"
 #include <iostream>
 
@@ -27,6 +27,6 @@ public:
 
 
 
-#endif /* Client_hpp */
+#endif /* client_hpp */
 
 

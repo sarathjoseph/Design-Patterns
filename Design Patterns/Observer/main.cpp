@@ -7,8 +7,8 @@
 //
 
 #include <iostream>
-#include "Server.hpp"
-#include "Client.hpp"
+#include "server.hpp"
+#include "client.hpp"
 
 
 using namespace std;
