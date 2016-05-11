@@ -1,4 +1,5 @@
 #include "display.h"
+#include "iostream"
 
 Display::Display(Component * componentInstance)
 	:ComponentDecorator(componentInstance)
@@ -8,6 +9,7 @@ Display::Display(Component * componentInstance)
 
 Display::~Display()
 {
+	std::cout << "Destroying Display object: "<<this<<endl;
 }
 
 int Display::getCost()

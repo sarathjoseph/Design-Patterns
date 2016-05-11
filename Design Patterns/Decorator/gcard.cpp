@@ -13,8 +13,9 @@ GraphicsCard::GraphicsCard(Component* componentInstance)
 
 GraphicsCard::~GraphicsCard()
 {
-
+	std::cout << "Destroying Graphics card object: " << this << endl;
 }
+
 
 int GraphicsCard::getCost()
 {

@@ -12,8 +12,9 @@ Computer::Computer(Processor processor)
 
 Computer::~Computer()
 {
-
+	std::cout << "Destroying Computer object: " << this << endl;
 }
+
 
 int Computer::getCost()
 {

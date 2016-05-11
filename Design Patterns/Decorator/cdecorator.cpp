@@ -9,6 +9,7 @@ ComponentDecorator::ComponentDecorator(Component* componentInstance)
 
 ComponentDecorator::~ComponentDecorator(){
 
+	delete component;
 }
 
 string ComponentDecorator::getConfiguration()

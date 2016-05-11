@@ -33,6 +33,11 @@ int main(int argc, const char* argv[]) {
 
 	cout << "Configuration 2: " << comp->getConfiguration() << endl;
 	cout << "Cost of total unit : $" << comp->getCost() << endl;
+
+	delete computer_gc_disp;
+	delete comp;
+
+
 	return 0;
 
 }
